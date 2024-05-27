@@ -1,0 +1,24 @@
+{
+    "name": "broot-president-meme",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "multiverse-test": "mocha",
+        "test": "mocha"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@ethereansos/multiverse": "git+https://github.com/EthereansOS/multiverse.git"
+    },
+    "multiverse": {
+        "knowledgeBase": "resources/knowledgeBase",
+        "solidityVersion": "0.8.26"
+    },
+    "mocha": {
+        "timeout": false,
+        "require": "@ethereansos/multiverse"
+    }
+}
